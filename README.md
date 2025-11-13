@@ -9,3 +9,5 @@ Scene text image super-resolution aims to enhance text legibility by recovering 
 ## 🖼️ Framework Overview
 <img width="2426" height="669" alt="image" src="https://github.com/user-attachments/assets/f84dc668-3f8b-4ba0-9b57-1c19a769923c" />
 
+## Acknowledgements
+Our training framework is based on the official implementation of [EvTexture (ICML 2024)](https://github.com/DachunKai/EvTexture). We primarily utilize their training and testing pipeline, replacing the model architecture (`arch`) code with our proposed EvTSR network.
